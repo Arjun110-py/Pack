@@ -4,10 +4,12 @@ With file dialog: python interpreter.py (Or python3)
 
 With filename: python interpreter.py (file name) (Or python3)
 ## Examples
+### Hello World File
 `
-print("Hello World") // Hello World File
+print("Hello World")
 `
 
+### Fibonacci Sequence
 `
 let prev1 = 0
 let prev2 = 1
@@ -24,6 +26,4 @@ for(i) in range(10) {
     prev2 = nth
     prev1 = prev2
 }
-
-// Fibonacci Sequence
 `
