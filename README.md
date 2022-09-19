@@ -11,18 +11,18 @@ print("Hello World")
 
 ### Fibonacci Sequence
 
-`let prev1 = 0              `
-`let prev2 = 1              `
-`print(prev1)               `
-`print(prev2)               `
-`                           `
-`func add(a, b) {           `
-`    return(a + b)          `
-`}                          `
-`                           `
-`for(i) in range(10) {      `
-`    nth = add(prev1, prev2)`
-`    print(nth)             `
-`    prev2 = nth            `
-`    prev1 = prev2          `
-`}                          `
+```let prev1 = 0              
+let prev2 = 1              
+print(prev1)               
+print(prev2)               
+                           
+func add(a, b) {           
+    return(a + b)          
+}                          
+                           
+for(i) in range(10) {      
+    nth = add(prev1, prev2)
+    print(nth)             
+    prev2 = nth            
+    prev1 = prev2          
+}                          ```
