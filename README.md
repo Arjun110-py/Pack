@@ -4,6 +4,7 @@ With file dialog: python interpreter.py (Or python3)
 
 With filename: python interpreter.py (file name) (Or python3)
 ## Examples
+##### These are not all implemented yet.
 ### Hello World File
 `
 print("Hello World")
