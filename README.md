@@ -1,7 +1,8 @@
 # Pack
 ## How To Run Your pack file
-#####With file dialog: python interpreter.py (Or python3)
-#####With filename: python interpreter.py (file name) (Or python3)
+With file dialog: python interpreter.py (Or python3)
+
+With filename: python interpreter.py (file name) (Or python3)
 ## Examples
 `
 print("Hello World") // Hello World File
