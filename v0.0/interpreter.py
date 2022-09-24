@@ -42,6 +42,7 @@ def string_with_arrows(text, pos_start, pos_end):
         idx_start = idx_end
         idx_end = text.find('\n', idx_start + 1)
         if idx_end < 0: idx_end = len(text)
+    return result
 
 class Error:
 		def __init__(self, pos_start, pos_end, error_name, details):
@@ -88,16 +89,6 @@ class Position:
 				return Position(self.idx, self.ln, self.col, self.fn, self.ftxt)
 
 # Tokens
-
-TT_INT			= 'INT'
-TT_FLOAT    = 'FLOAT'
-TT_PLUS     = 'PLUS'
-TT_MINUS    = 'MINUS'
-TT_MUL      = 'MUL'
-TT_DIV      = 'DIV'
-TT_LPAREN   = 'LPAREN'
-TT_RPAREN   = 'RPAREN'
-TT_EOF			= 'EOF'
 
 class Token:
 		def __init__(self, type_, value=None, pos_start=None, pos_end=None):
@@ -331,5 +322,4 @@ def run(path):
         print(ast.node)
 
 if __name__ == "__main__":
-    try: run(sys.argv[1])
-    except Exception: run(filepath if (filepath := filedialog.askopenfilename()) else quit())
+    run(filepath if (filepath := filedialog.askopenfilename()) else quit())

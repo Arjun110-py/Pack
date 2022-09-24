@@ -1,8 +1,6 @@
 # Pack
 ## How To Run Your pack file
-With file dialog: python interpreter.py
-
-With filename: python interpreter.py (file name)
+python interpreter.py
 ## Examples
 ##### These are not all implemented yet.
 ### Hello World File
